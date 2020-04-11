@@ -1,0 +1,5 @@
+          <div class="card mb-4 shadow-sm">
+            <div class="card-header"><%= y['ku'] %></div>
+            <% if y['youtube'] %><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/<%= y['youtube'] %>?rel=0" allowfullscreen></iframe></div><% end %>
+            <% if y['link'] %><div class="card-body"><a href="<%= y['link'] %>" class="card-link" target="_blank"><%= y['taiso'] %></a></div><% end %>
+          </div>
